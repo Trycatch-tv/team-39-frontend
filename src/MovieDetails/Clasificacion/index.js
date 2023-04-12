@@ -1,7 +1,12 @@
 import React from 'react'
+import "./Clasificacion.css"
 
-export const index = () => {
+export const Classification = () => {
   return (
-    <div>index</div>
+    <div className='classification-container'>
+      <span className='classification-span'>Clsfc</span>
+    
+    </div>
   )
 }
+

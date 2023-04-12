@@ -1,0 +1,17 @@
+.classification-container{
+    background-color: rgb(45, 44, 44);
+    display: flex;
+    width: 5rem;
+    height: 3rem;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    box-shadow:  0px 3px 7px black;
+    margin-top: 100px;
+}
+.classification-span{
+    display: flex;
+    color:honeydew;
+    font-weight: bold;
+}

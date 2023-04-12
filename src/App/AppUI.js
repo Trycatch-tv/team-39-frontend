@@ -1,12 +1,12 @@
 import React from "react";
-
+import { Classification } from "../MovieDetails/Clasificacion";
+import { LeftComp } from "../MovieDetails/leftComp";
 
 function AppUI(){
     return(
         <React.Fragment>
-            <div>
-                <h1>Hola</h1>
-                </div>
+            <LeftComp/>
+            <Classification/>
         </React.Fragment>
     )
 }
