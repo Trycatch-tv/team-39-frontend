@@ -1,8 +1,13 @@
-import { useState } from "react"
+import NavBar from "../NavBar"
+import SearchAdmin from "../SearchAdmin"
 
-useState
-export const ListMovies = () => {
-return (
-        <div>ListMovies</div>  
+const ListMovies = () => {
+    return (
+        <>
+            <NavBar />
+            <SearchAdmin />
+        </>  
     )
 }
+
+export default ListMovies
