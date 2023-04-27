@@ -1,0 +1,39 @@
+
+.containerAdmin{
+  width: 360px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  background-color: beige;
+  border-radius: 30px;
+}
+
+.navbar{
+  width: 340px;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar .navbar__contProfile img{
+  border: 1px solid #000;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+
+.navbar h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.navbar__hamburguer{
+  width: 50px;
+  height: 50px;
+}
+
+.navbar button.navbar__hamburguer{
+  background: none;
+  border: 0;
+}
