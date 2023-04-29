@@ -3,4 +3,6 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
 }
