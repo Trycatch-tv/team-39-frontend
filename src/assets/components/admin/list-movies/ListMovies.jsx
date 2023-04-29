@@ -13,10 +13,8 @@ const ListMovies = () => {
                 <SearchAdmin />
                 <h2 className="containerAdmin__title">LISTADO DE PELICULAS</h2>
                 <ListEditMovie />
+                <FooterListAdmin />
             </div>
-            {/*
-            <FooterListAdmin />
-            */}
         </>  
     )
 }
